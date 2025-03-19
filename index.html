@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th{
+            background-color: #dddddd;
+        }
+
+        td, th{
+            border: 1px solid gray;
+            text-align: left;
+            padding: 8px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- list section -->
+    <section>
+        <ol type="i">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+    </section>
+    <!-- image section -->
+    <section>
+        <img src="web.jpg" alt="web_image" height="300px" width="300px">
+    </section>
+    <!-- table section -->
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Arpit Syrians</td> 
+                    <td>Route 66</td>
+                    <td>+27 7116495526</td>
+                    <td>ArpitSyrians@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Jacob Amit</td>
+                     <td>Wessels Steet</td>
+                     <td>+27 7116495526</td>
+                     <td>JacobAmit@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Anukarsh Hashirt</td>
+                     <td>Church Street</td>
+                     <td>+27 7119411996</td>
+                     <td>AnukarshHashirt@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Rahul Shukla</td>
+                     <td>Milk Street</td>
+                     <td>+27 7114917354</td>
+                     <td>RahulShukla@gmail.com</td>
+                 </tr>
+                 <tr>
+                     <td>Kirti Aman</td>
+                     <td>Campus Street</td>
+                     <td>+27 7117993076</td>
+                     <td>KirtiAman@gmail.com</td>
+                 </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- registration section -->
+    <section>
+        <form action="#">
+            <label for="fname">Full Name:</label><br>
+            <input type="text" id="fname" value="full name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
