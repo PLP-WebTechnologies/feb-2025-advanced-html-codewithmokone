@@ -87,27 +87,35 @@
     <section>
         <form action="#">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" value="name" placeholder="name" required><br><br>
+            <input type="text" id="name" placeholder="name" required><br><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" value="email" placeholder="email" required><br><br>
+            <input type="email" id="email" name="email" placeholder="email" required><br><br>
             <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" value="password" placeholder="password" required><br><br>
+            <input type="password" id="password" name="password"  placeholder="password" required><br><br>
             <label for="date">Date of Birth:</label><br>
-            <input type="date" id="date" name="date" value="date" placeholder="date of birth" required><br><br>
+            <input type="date" id="date" name="date"  placeholder="date of birth" required><br><br>
             <label for="gender">Please select your gender:</label><br>  
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">Female</label><br>
             <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label><br>
+            <label for="other">Other</label><br><br>
             <label for="gender">Please select your country:</label><br>
             <select name="country" id="country">
                 <option>Select country:</option>
                 <option value="">South Africa</option>
                 <option value="">United States</option>
                 <option value="">United Kingdom</option>
-            </select><br>
+            </select><br><br>
+            <label>Select prefered programming language:</label><br>
+            <input type="checkbox" id="js" name="js" value="js">
+            <label for="js">Javascript</label><br>
+            <input type="checkbox" id="java" name="java" value="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="python" name="python" value="python">
+            <label for="python"> Python</label><br><br>
+
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
